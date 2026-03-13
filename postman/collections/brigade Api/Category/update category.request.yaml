@@ -1,0 +1,23 @@
+$kind: http-request
+name: update category
+url: http://127.0.0.1:8000/api/category/1
+method: PUT
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\" : \"updated  8 \",\r
+
+    \    \"description\" : \"updated desc 8\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: 7|OCRdNdMwEDipoyOYFvrCBENSbar7AqH9lqpcovum037f90c4
+settings:
+  disabledSystemHeaders:
+    - accept
+order: 1773162838109

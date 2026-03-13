@@ -1,0 +1,17 @@
+$kind: http-request
+name: list PLats
+url: http://127.0.0.1:8000/api/plats
+method: GET
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: ""
+auth:
+  type: bearer
+  credentials:
+    token: 13|dU7ZRcG2tcXmXZbPj72VVu4GovhIuWmSWtLIjHpP6bd62fe2
+settings:
+  disabledSystemHeaders:
+    - accept
+order: 424958352196460

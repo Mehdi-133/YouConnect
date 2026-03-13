@@ -1,0 +1,23 @@
+$kind: http-request
+name: Create Category
+url: http://127.0.0.1:8000/api/category
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\" : \"test\" , \r
+
+    \    \"description\" : \"testing\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: 7|OCRdNdMwEDipoyOYFvrCBENSbar7AqH9lqpcovum037f90c4
+settings:
+  disabledSystemHeaders:
+    - accept
+order: 4068339848066575

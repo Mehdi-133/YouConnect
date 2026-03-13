@@ -1,0 +1,14 @@
+$kind: http-request
+name: list categories
+url: http://127.0.0.1:8000/api/category
+method: GET
+headers:
+  Accept: application/json
+auth:
+  type: bearer
+  credentials:
+    token: 8|CaXncbHEp19uvUXOK4J6lVOFoUJF6ADK6XZVMnWHd857eec9
+settings:
+  disabledSystemHeaders:
+    - accept
+order: 4401021929810846

@@ -1,0 +1,17 @@
+$kind: http-request
+name: display category
+url: http://127.0.0.1:8000/api/category/1
+method: GET
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: ""
+auth:
+  type: bearer
+  credentials:
+    token: 10|Icips4krRaFfI46sxdVQeA3HnrYZiscspuAlSEhl253d5db2
+settings:
+  disabledSystemHeaders:
+    - accept
+order: 4487055898697118

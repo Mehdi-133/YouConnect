@@ -1,0 +1,10 @@
+$kind: http-request
+name: Get User
+url: ""
+method: GET
+headers:
+  Accept: application/json
+settings:
+  disabledSystemHeaders:
+    - accept
+order: 4190680184962431

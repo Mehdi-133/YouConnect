@@ -1,0 +1,23 @@
+$kind: http-request
+name: login
+url: http://127.0.0.1:8000/api/login
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\": \"test8@gmail.com\",\r
+
+    \    \"password\": \"admin123\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: Baerer 14|WhW1kAKKwfTgpRmBR5ivoyPpyMWDvrzpLkIWNtlB19d4b1b4
+settings:
+  disabledSystemHeaders:
+    - accept
+order: 1773162798162

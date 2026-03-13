@@ -1,0 +1,37 @@
+$kind: http-request
+name: register
+url: http://127.0.0.1:8000/api/register
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "// {\r
+
+    //     \"name\": \"admin\",\r
+
+    //     \"email\": \"test8@gmail.com\",\r
+
+    //     \"password\": \"admin123\",\r
+
+    //     \"password_confirmation\" : \"admin123\"\r
+
+    // }\r
+
+    {\r
+
+    \    \"name\": \"client2\",\r
+
+    \    \"email\": \"client2@gmail.com\",\r
+
+    \    \"password\": \"client123\",\r
+
+    \    \"password_confirmation\": \"client123\"\r
+
+    }"
+auth:
+  type: bearer
+settings:
+  disabledSystemHeaders:
+    - accept
+order: 1095088826442405

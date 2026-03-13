@@ -1,0 +1,14 @@
+$kind: http-request
+name: Display Plat
+url: http://127.0.0.1:8000/api/plats/1
+method: GET
+headers:
+  Accept: application/json
+auth:
+  type: bearer
+  credentials:
+    token: 13|dU7ZRcG2tcXmXZbPj72VVu4GovhIuWmSWtLIjHpP6bd62fe2
+settings:
+  disabledSystemHeaders:
+    - accept
+order: 1532728381392139
